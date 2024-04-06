@@ -1,0 +1,32 @@
+.sidebar{
+    position:fixed;
+    background-color:white;
+    top:75px;
+    bottom:0;
+    left:0;
+    width:90px;
+    z-index:100;
+    padding-top:5px;
+    cursor:pointer;
+}
+.sidebar-link
+{
+    height:100px;
+    border:1px;
+    margin-bottom:1px;
+    background-color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;/*affects VERTICAL since flex dir is ROW*/
+    align-items:center;/*now it affects HORIZONTAL direction since flex dir is COLUMN*/
+}
+.sidebar-link:hover{
+    background-color: rgb(234, 233, 233);
+}
+.sidebar-link img{ /*new way of targeting. Targeting all the images inside sidebar-link div*/
+height:24px;
+}
+.sidebar-link div{
+    font-family:roboto, arial;
+    font-size:10px;
+}

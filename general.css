@@ -1,0 +1,13 @@
+p{
+    font-family: Roboto, Arial;
+    margin-top:0;
+    margin-bottom:0;
+}
+body{
+    margin:0;
+    padding-top:120px;
+    padding-left:120px; /*we want padding because we are adding header and sidebar so that the contents start after those two*/
+    padding-right:30px;
+    background-color:rgb(246, 245, 245);
+    padding-bottom:300px;
+}

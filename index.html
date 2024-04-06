@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Youtube clone</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="video.css">
+        <link rel="stylesheet" href="general.css">
+        <link rel="stylesheet" href="header.css">
+        <link rel="stylesheet" href="sidebar.css">
+    </head>
+    <body>
+
+    <div class="header">
+        <div class="left-section">
+            <img src="hamburger-menu.svg" class="hamburger-menu">
+            <img src="youtube-logo.svg" class="youtube-logo">
+        </div>
+        <div class="middle-section">
+            <input class="search-bar" type="text" placeholder="search">  
+            <button class="search-button"><img class="search-icon" src="search.svg"></button>
+            <button class="voice-search-button"><img clas="voice-search-icon" src="voice-search-icon.svg"></button>
+        </div>
+        <div class="right-section">
+            <img class="upload-icon" src="upload.svg">
+            <img class="youtube-apps-icon"src="youtube-apps.svg">
+            <div class="notifications-icon-container">
+                <img class="notifications-icon"src="notifications.svg">
+                <div class="notifications-count">3</div>
+            </div> <!--div for notifications alone coz we need to make this position relative as we gotta add notification count and place it with absolute-->
+            <img class="mychannel-icon"src="mychannel.jpg">
+        </div>
+     </div>
+
+     <div class="sidebar">
+        <div class="sidebar-link">
+            <img src="home.svg">
+            <div>Home</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="explore.svg">
+            <div>Explore</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="subscriptions.svg">
+            <div>Subscriptions</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="originals.svg">
+            <div>Originals</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="youtube-music.svg">
+            <div>Youtube Music</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="library.svg">
+            <div>Library</div>
+        </div>
+     </div>
+
+
+    <div class="video-grid">
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnail-1.jpg">
+                <div class="video-time">17.28</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="channel-1.jpg">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">I Invited 100 Billionaires To My Birthday</p>
+                    <p class="video-author">Ryan Trahan</p>
+                    <p class="video-stats">5.2M views &#183 7 days ago</p>
+                </div>
+             </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnail-2.jpg">
+                <div class="video-time">43.50</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="channel-2.jpg">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Every chad ever:Part 1-SNL</p>
+                    <p class="video-author">Saturday Night Live</p>
+                    <p class="video-stats">16M views &#183 4 years ago</p>
+                </div>
+             </div>
+         </div>
+
+         <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnail-3.jpg">
+                <div class="video-time">18.53</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="channel-1.jpg">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">The Moon Landing Hoax, Explained</p>
+                    <p class="video-author">Johnny Harris</p>
+                    <p class="video-stats">1.2M views &#183 5 days ago</p>
+                </div>
+             </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnail-4.jpg">
+                <div class="video-time">12.37</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="channel-2.jpg">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Kanye Fans be Like</p>
+                    <p class="video-author">Jawbreaker juice</p>
+                    <p class="video-stats">1M views &#183 1 year ago</p>
+                </div>
+             </div>
+         </div>
+
+         <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnail-5.jpg">
+                <div class="video-time">15.45</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="channel-5.jpg">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Asa Butterfield and Mimi Keene Play What's in the Box</p>
+                    <p class="video-author">Still Watching Netflix</p>
+                    <p class="video-stats">1.2M views &#183 2 weeks ago</p>
+                </div>
+             </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnail-6.jpg">
+                <div class="video-time">3.52</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="channel-6.jpg">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">The Weeknd, JENNIE, Lily-Rose Depp - One of the girls (Official Video)</p>
+                    <p class="video-author">The Weeknd</p>
+                    <p class="video-stats">23M views &#183 3 months ago</p>
+                </div>
+             </div>
+         </div>
+
+         <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnail-7.jpg">
+                <div class="video-time">20.49</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="channel-7.jpg">
+                </div>
+                <div class="video-info">
+                    <p class="video-title"> Do all Highschoolers think the same?</p>
+                    <p class="video-author">Strawberry Park</p>
+                    <p class="video-stats">443k views &#183 6 months ago</p>
+                </div>
+             </div>
+         </div>
+
+         <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnail-8.jpg">
+                <div class="video-time">1.22.39</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="channel-8.jpg">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Matt Rife | Only Fans(Full comedy special)</p>
+                    <p class="video-author">800 Pound Gorilla Media</p>
+                    <p class="video-stats">12M views &#183 9 months ago</p>
+                </div>
+             </div>
+         </div>
+
+         <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnail-9.jpg">
+                <div class="video-time">2.43</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="channel-9.jpg">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">A History of Violence Trailer[HD]</p>
+                    <p class="video-author">MoviemanTrailers</p>
+                    <p class="video-stats">1.4M views &#183 12 years ago</p>
+                </div>
+             </div>
+         </div>
+
+         <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnail-10.jpg">
+                <div class="video-time">2.43</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="channel-10.jpg">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">if old music had modern lyrics</p>
+                    <p class="video-author">rob</p>
+                    <p class="video-stats">3M views &#183 1 year ago</p>
+                </div>
+             </div>
+         </div>
+
+         <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnail-11.jpg">
+                <div class="video-time">2.43</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="channel-11.jpg">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Barbie(2023)-I'm Just Ken Scene | Movieclips</p>
+                    <p class="video-author">Movieclips</p>
+                    <p class="video-stats">1.2M views &#183 2 weeks ago</p>
+                </div>
+             </div>
+         </div>
+
+         <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnail-12.jpg">
+                <div class="video-time">2.43</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="channel-12.jpg">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Dua Lipa Real Voice(No Autotune)</p>
+                    <p class="video-author">M S</p>
+                    <p class="video-stats">1.1M views &#183 1 year ago</p>
+                </div>
+             </div>
+         </div>
+    </div>
+    </body>
+</html>
